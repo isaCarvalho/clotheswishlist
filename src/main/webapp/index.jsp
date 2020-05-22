@@ -27,9 +27,24 @@
             </s:form>
 
             <table>
-                <th style="text-align: center">Clothes</th>
-                <s:iterator value="clotheBean" >
-                    <tr><td><s:property/></td></tr>
+                <tr>
+                    <th>Clothes</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>Category</td>
+                    <td>Price</td>
+                    <td>Store</td>
+                    <td>URL</td>
+                </tr>
+                <s:iterator var="clothe" value="clothes" >
+                    <tr>
+                        <td><s:property value="#clothe.name"/></td>
+                        <td><s:property value="#clothe.category"/></td>
+                        <td><s:property value="#clothe.price"/></td>
+                        <td><s:property value="#clothe.store"/></td>
+                        <td><s:property value="#clothe.url"/></td>
+                    </tr>
                 </s:iterator>
             </table>
         </div>
