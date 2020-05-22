@@ -1,0 +1,26 @@
+body {
+    background-color:  #303030;
+    color: white;
+}
+
+header {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}
