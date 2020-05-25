@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@taglib prefix="s" uri="/struts-tags" %>
+
 <html>
     <meta charset="UTF-8" />
-    <title>Clothes Wish List</title>
+    <title>Clothes Wish List - Criar Conta</title>
 
     <link rel="icon" href="images/garment.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style/page.css">
 
-
     <s:head/>
+
     <body>
         <header>
             <img src="images/garment.png" alt="logo" style="width: 50px; height: auto">
@@ -18,37 +19,14 @@
         </header>
 
         <div class="form">
-            <s:form action="index.action">
-                <s:textfield name="clotheBean.name" label="Name"/>
-                <s:textfield name="clotheBean.category" label="Category"/>
-                <s:textfield name="clotheBean.store" label="Store"/>
-                <s:textfield name="clotheBean.price" label="Price"/>
-                <s:textfield name="clotheBean.url" label="URL"/>
+            <s:form action="register.action">
+                <s:textfield name="userBean.name" label="Name"/>
+                <s:password name="userBean.password" label="Password"/>
 
                 <s:submit style="margin: 10px 0; border-radius: 10px; height: 40px; border: none; background-color: #bb002f;border-color: #bb002f;color: white;"/>
             </s:form>
 
-            <table>
-                <tr>
-                    <th>Clothes</th>
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td>Category</td>
-                    <td>Price</td>
-                    <td>Store</td>
-                    <td>URL</td>
-                </tr>
-                <s:iterator var="clothe" value="clothes" >
-                    <tr>
-                        <td><s:property value="#clothe.name"/></td>
-                        <td><s:property value="#clothe.category"/></td>
-                        <td><s:property value="#clothe.price"/></td>
-                        <td><s:property value="#clothe.store"/></td>
-                        <td><s:property value="#clothe.url"/></td>
-                    </tr>
-                </s:iterator>
-            </table>
+            <s:property value="userBean.name"/>
         </div>
     </body>
 

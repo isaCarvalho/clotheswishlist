@@ -1,7 +1,5 @@
 package com.example.clotheswishlist.model;
 
-import java.util.ArrayList;
-
 public class Clothe
 {
     private String name;

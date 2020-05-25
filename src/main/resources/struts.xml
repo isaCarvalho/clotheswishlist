@@ -12,6 +12,12 @@
             <result name="success">/index.jsp</result>
             <result name="input">/index.jsp</result>
         </action>
+
+        <action name="register" class="com.example.clotheswishlist.action.UserAction" method="execute">
+            <result name="success">/index.jsp</result>
+            <result name="input">/register.jsp</result>
+            <result name="null">/register.jsp</result>
+        </action>
     </package>
 
 </struts>
