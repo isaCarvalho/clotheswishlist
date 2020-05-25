@@ -18,12 +18,12 @@
         </header>
 
         <div class="form">
-            <s:form action="index.action">
-                <s:textfield name="clotheBean.name" label="Name"/>
-                <s:textfield name="clotheBean.category" label="Category"/>
-                <s:textfield name="clotheBean.store" label="Store"/>
-                <s:textfield name="clotheBean.price" label="Price"/>
-                <s:textfield name="clotheBean.url" label="URL"/>
+            <s:form action="index">
+                <s:textfield key="clotheBean.name"/>
+                <s:textfield key="clotheBean.category"/>
+                <s:textfield key="clotheBean.store"/>
+                <s:textfield key="clotheBean.price"/>
+                <s:textfield key="clotheBean.url"/>
 
                 <s:submit style="margin: 10px 0; border-radius: 10px; height: 40px; border: none; background-color: #bb002f;border-color: #bb002f;color: white;"/>
             </s:form>

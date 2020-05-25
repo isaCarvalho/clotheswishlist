@@ -1,4 +1,4 @@
-com\example\clotheswishlist\model\Clothe.class
-com\example\clotheswishlist\action\UserAction.class
-com\example\clotheswishlist\action\ClothesAction.class
-com\example\clotheswishlist\model\User.class
+org\example\clotheswishlist\model\Clothe.class
+org\example\clotheswishlist\model\User.class
+org\example\clotheswishlist\action\ClothesAction.class
+org\example\clotheswishlist\action\UserAction.class

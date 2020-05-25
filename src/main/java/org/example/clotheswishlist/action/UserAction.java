@@ -1,6 +1,6 @@
-package com.example.clotheswishlist.action;
+package org.example.clotheswishlist.action;
 
-import com.example.clotheswishlist.model.User;
+import org.example.clotheswishlist.model.User;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class UserAction extends ActionSupport {

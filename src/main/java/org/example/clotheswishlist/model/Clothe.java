@@ -1,4 +1,4 @@
-package com.example.clotheswishlist.model;
+package org.example.clotheswishlist.model;
 
 public class Clothe
 {

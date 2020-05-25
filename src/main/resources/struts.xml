@@ -8,12 +8,12 @@
     <constant name="struts.devMode" value="true" />
 
     <package name="clotheswishlist" extends="struts-default">
-        <action name="index" class="com.example.clotheswishlist.action.ClothesAction" method="execute">
+        <action name="index" class="org.example.clotheswishlist.action.ClothesAction" method="execute">
             <result name="success">/index.jsp</result>
             <result name="input">/index.jsp</result>
         </action>
 
-        <action name="register" class="com.example.clotheswishlist.action.UserAction" method="execute">
+        <action name="register" class="org.example.clotheswishlist.action.UserAction" method="execute">
             <result name="success">/index.jsp</result>
             <result name="input">/register.jsp</result>
             <result name="null">/register.jsp</result>

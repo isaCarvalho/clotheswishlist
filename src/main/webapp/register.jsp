@@ -19,9 +19,9 @@
         </header>
 
         <div class="form">
-            <s:form action="register.action">
-                <s:textfield name="userBean.name" label="Name"/>
-                <s:password name="userBean.password" label="Password"/>
+            <s:form action="register">
+                <s:textfield key="userBean.name"/>
+                <s:password key="userBean.password"/>
 
                 <s:submit style="margin: 10px 0; border-radius: 10px; height: 40px; border: none; background-color: #bb002f;border-color: #bb002f;color: white;"/>
             </s:form>

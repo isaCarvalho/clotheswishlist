@@ -1,6 +1,6 @@
-package com.example.clotheswishlist.action;
+package org.example.clotheswishlist.action;
 
-import com.example.clotheswishlist.model.Clothe;
+import org.example.clotheswishlist.model.Clothe;
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.interceptor.SessionAware;
 
